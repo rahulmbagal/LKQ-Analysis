@@ -4,8 +4,6 @@ An exploratory and hypothesis-testing case study of how **Digital, Radio and TV 
 
 **Study period:** January 2020–December 2022 · **Data:** 36 monthly sales observations and 12 quarters of U.S. GDP information · **Tools:** Python, pandas, seaborn, matplotlib, SciPy and statsmodels.
 
-> **Important:** This is an observational analysis of associations. It does not identify causal advertising effects, incremental sales or marketing return on investment (ROI).
-
 ## Business questions
 
 1. Are the three advertising channels jointly associated with sales, and what does the evidence show for each channel?
@@ -86,11 +84,6 @@ The unadjusted correlations between monthly sales and spending are **Digital: 0.
 - Only **36 monthly observations** are available. GDP has just **12 distinct quarterly values**, even though these are mapped to months.
 - There is **no pre-pandemic baseline or unaffected control group**, so COVID's causal effect cannot be identified here.
 - Potentially important retail drivers—including prices, discounts, promotions, inventory, store operations and competitor activity—are not available in the supplied analysis.
-- A linear model without explicit advertising carryover or diminishing returns cannot estimate a full marketing response curve.
-- National U.S. GDP may not represent the retailer's local trading conditions.
 
-For a business decision, validate the findings with richer retail and campaign data and a controlled incremental-budget experiment that measures **incremental sales and profit**, rather than treating the OLS coefficients as ROI.
-
-## Data and reproducibility note
 
 The numerical findings above come from the executed case-study notebook. To reproduce them, use the same workbook and run the notebook from top to bottom. Review the input-data sharing permissions before publishing any workbook, outputs or screenshots to a public GitHub repository.
