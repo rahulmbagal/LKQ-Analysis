@@ -1,0 +1,10 @@
+# ABC Retail analysis: versions used to execute the notebook.
+# Python 3.11 or newer is required by these package versions.
+# Install in your notebook environment: pip install -r requirements.txt
+
+numpy==2.3.5
+pandas==2.2.3
+matplotlib==3.10.8
+seaborn==0.13.2
+scipy==1.17.0
+openpyxl==3.1.5
