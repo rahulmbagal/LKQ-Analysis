@@ -17,8 +17,8 @@ An exploratory and hypothesis-testing case study of how **Digital, Radio and TV 
 
 | File | Purpose |
 | --- | --- |
-| `Final_Analysis_with_VIF.ipynb` | Data cleaning, exploratory analysis, OLS estimation, hypothesis testing and diagnostics. |
-| `ABC_Retail_Final_Presentation_v5_eda_updated2.pptx` | Presentation with notebook-derived EDA charts, model explanation and findings. |
+| `Final_Analysis.ipynb` | Data cleaning, exploratory analysis, OLS estimation, hypothesis testing and diagnostics. |
+| `ABC_Retail_Final_Presentation.pptx` | Presentation with notebook-derived EDA charts, model explanation and findings. |
 | `requirements.txt` | Python dependencies. |
 | `Retail Sales Case Study.xlsx` | Input workbook expected by the notebook. **Add it only if you have permission to publish the data.** |
 
